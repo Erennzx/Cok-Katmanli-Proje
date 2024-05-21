@@ -37,17 +37,17 @@ namespace KatmanliProje.İsKatmani
                 if (secilen == 0)
                 {
                     vt.yeniParcaEkle(yeniParca);
-                    MessageBox.Show("Yeni Parça Eklendi");
+                    //MessageBox.Show("Yeni Parça Eklendi");
                 }
                 else
                 {
                     vt.parcaGuncelle(secilen, yeniParca);
-                    MessageBox.Show("Seçilen Parça Bilgileri Güncellendi");
+                    //MessageBox.Show("Seçilen Parça Bilgileri Güncellendi");
                 }
             }
             else
             {
-                MessageBox.Show("Lütfen Bütün Alanları Doldurunuz");
+                //MessageBox.Show("Lütfen Bütün Alanları Doldurunuz");
             }
         }
 

@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             tabPage2 = new TabPage();
+            bilgi = new Label();
             btnYeni_Parca = new Button();
             dataGridView2 = new DataGridView();
             comboBoxParca_Tur = new ComboBox();
@@ -54,6 +55,7 @@
             // 
             // tabPage2
             // 
+            tabPage2.Controls.Add(bilgi);
             tabPage2.Controls.Add(btnYeni_Parca);
             tabPage2.Controls.Add(dataGridView2);
             tabPage2.Controls.Add(comboBoxParca_Tur);
@@ -72,6 +74,17 @@
             tabPage2.TabIndex = 1;
             tabPage2.Text = "Parça Düzenleme";
             tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // bilgi
+            // 
+            bilgi.AutoSize = true;
+            bilgi.Font = new Font("Segoe Print", 10F, FontStyle.Bold);
+            bilgi.ForeColor = Color.Green;
+            bilgi.Location = new Point(6, 162);
+            bilgi.Name = "bilgi";
+            bilgi.Size = new Size(147, 24);
+            bilgi.TabIndex = 17;
+            bilgi.Text = "Yeni Parça Eklendi!";
             // 
             // btnYeni_Parca
             // 
@@ -278,5 +291,6 @@
         private DataGridView dataGridView_Parcalar;
         private ComboBox comboBoxFiltre;
         private TabControl tabControl1;
+        private Label bilgi;
     }
 }
