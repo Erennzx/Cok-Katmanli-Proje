@@ -8,6 +8,8 @@ namespace KatmanliProje
     public partial class Form1 : Form
     {
         islemler _is = new islemler();
+
+        public int degisken = 0;
         public Form1()
         {
             InitializeComponent();
@@ -90,8 +92,12 @@ namespace KatmanliProje
 
         private void btnEkle_Parca_Click(object sender, EventArgs e)
         {
+            degisken = comboBoxFiltre.SelectedIndex;
+
             _is.parcaEkle(secilen, txtSahibi.Text, txtAd.Text, txtFiyat.Text, comboBoxParca_Tur.SelectedItem);
             dataGridView2.Refresh();
+            comboBoxFiltre.SelectedIndex = 0;
+            comboBoxFiltre.SelectedIndex = degisken;
             dataGridView_Parcalar.Refresh();
         }
 
@@ -109,6 +115,8 @@ namespace KatmanliProje
             {
                 var kayit = dataGridView_Parcalar.Rows[e.RowIndex].Cells[2].Value;
                 _is.parcaSil(Int32.Parse(kayit.ToString()));
+                comboBoxFiltre.SelectedIndex = 0;
+                comboBoxFiltre.SelectedIndex = degisken;
             }
         }
 
