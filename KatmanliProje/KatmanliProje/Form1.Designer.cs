@@ -79,12 +79,12 @@
             // 
             bilgi.AutoSize = true;
             bilgi.Font = new Font("Segoe Print", 10F, FontStyle.Bold);
-            bilgi.ForeColor = Color.Green;
+            bilgi.ForeColor = Color.White;
             bilgi.Location = new Point(6, 162);
             bilgi.Name = "bilgi";
-            bilgi.Size = new Size(147, 24);
+            bilgi.Size = new Size(235, 24);
             bilgi.TabIndex = 17;
-            bilgi.Text = "Yeni Parça Eklendi!";
+            bilgi.Text = "-------------------------";
             // 
             // btnYeni_Parca
             // 

@@ -114,17 +114,44 @@ namespace KatmanliProje
             {
                 bilgi.Text = "Yeni Parça Eklendi!";
                 bilgi.ForeColor = Color.Green;
+                wait(2000);
+                bilgi.ForeColor = Color.White;
 
                 if (secilen != 0)
                 {
                     bilgi.Text = "Seçili Parça Bilgileri Güncellendi";
                     bilgi.ForeColor = Color.Orange;
+                    wait(2000);
+                    bilgi.ForeColor = Color.White;
                 }
             }
             else
             {
                 bilgi.Text = "Lütfen Bütün Alanlarý Doldurun!";
                 bilgi.ForeColor = Color.Red;
+                wait(2000);
+                bilgi.ForeColor = Color.White;
+            }
+        }
+
+        public void wait(int milliseconds)
+        {
+            var timer1 = new System.Windows.Forms.Timer();
+            if (milliseconds == 0 || milliseconds < 0) return;
+
+            timer1.Interval = milliseconds;
+            timer1.Enabled = true;
+            timer1.Start();
+
+            timer1.Tick += (s, e) =>
+            {
+                timer1.Enabled = false;
+                timer1.Stop();
+            };
+
+            while (timer1.Enabled)
+            {
+                Application.DoEvents();
             }
         }
 

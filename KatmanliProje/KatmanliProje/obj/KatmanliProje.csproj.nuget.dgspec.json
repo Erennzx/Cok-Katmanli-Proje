@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\KatmanliProje\\KatmanliProje\\KatmanliProje.csproj": {}
+    "C:\\Users\\Hewlett-Packard\\Desktop\\Katmanli Proje\\KatmanliProje\\KatmanliProje\\KatmanliProje.csproj": {}
   },
   "projects": {
-    "D:\\KatmanliProje\\KatmanliProje\\KatmanliProje.csproj": {
+    "C:\\Users\\Hewlett-Packard\\Desktop\\Katmanli Proje\\KatmanliProje\\KatmanliProje\\KatmanliProje.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\KatmanliProje\\KatmanliProje\\KatmanliProje.csproj",
+        "projectUniqueName": "C:\\Users\\Hewlett-Packard\\Desktop\\Katmanli Proje\\KatmanliProje\\KatmanliProje\\KatmanliProje.csproj",
         "projectName": "KatmanliProje",
-        "projectPath": "D:\\KatmanliProje\\KatmanliProje\\KatmanliProje.csproj",
+        "projectPath": "C:\\Users\\Hewlett-Packard\\Desktop\\Katmanli Proje\\KatmanliProje\\KatmanliProje\\KatmanliProje.csproj",
         "packagesPath": "C:\\Users\\Hewlett-Packard\\.nuget\\packages\\",
-        "outputPath": "D:\\KatmanliProje\\KatmanliProje\\obj\\",
+        "outputPath": "C:\\Users\\Hewlett-Packard\\Desktop\\Katmanli Proje\\KatmanliProje\\KatmanliProje\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

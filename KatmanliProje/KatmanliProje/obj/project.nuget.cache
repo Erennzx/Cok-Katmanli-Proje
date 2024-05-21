@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YAOrjYHquWYz/3gqDI85E8JyxRTGw+Dvwxscxy9MFiuyGezr9W6dcJztBcLdTv0tumPtkUx0tsgFH2+vz7iTgw==",
+  "dgSpecHash": "jKW8B9ARLRpVvXKsNuLfVH0hdrMJfUY9cTpshiwT/Tz/UX1S4BV2gKs36wvjOBIiIKlSlWMsWrc56VKMVxKc2Q==",
   "success": true,
-  "projectFilePath": "D:\\KatmanliProje\\KatmanliProje\\KatmanliProje.csproj",
+  "projectFilePath": "C:\\Users\\Hewlett-Packard\\Desktop\\Katmanli Proje\\KatmanliProje\\KatmanliProje\\KatmanliProje.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Hewlett-Packard\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Hewlett-Packard\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
