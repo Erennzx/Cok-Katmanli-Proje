@@ -112,17 +112,20 @@ namespace KatmanliProje
 
             if (txtSahibi != null & txtAd != null & txtFiyat != null & comboBoxParca_Tur.SelectedItem != null)
             {
-                bilgi.Text = "Yeni Parça Eklendi!";
-                bilgi.ForeColor = Color.Green;
-                wait(2000);
-                bilgi.ForeColor = Color.White;
-
                 if (secilen != 0)
                 {
                     bilgi.Text = "Seçili Parça Bilgileri Güncellendi";
                     bilgi.ForeColor = Color.Orange;
                     wait(2000);
                     bilgi.ForeColor = Color.White;
+                }
+                else
+                {
+                    bilgi.Text = "Yeni Parça Eklendi!";
+                    bilgi.ForeColor = Color.Green;
+                    wait(2000);
+                    bilgi.ForeColor = Color.White;
+
                 }
             }
             else
