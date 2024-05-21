@@ -96,8 +96,18 @@ namespace KatmanliProje
 
             _is.parcaEkle(secilen, txtSahibi.Text, txtAd.Text, txtFiyat.Text, comboBoxParca_Tur.SelectedItem);
             dataGridView2.Refresh();
-            comboBoxFiltre.SelectedIndex = 0;
-            comboBoxFiltre.SelectedIndex = degisken;
+
+            if (comboBoxFiltre.SelectedIndex == 0)
+            {
+                comboBoxFiltre.SelectedIndex = 1;
+                comboBoxFiltre.SelectedIndex = degisken;
+            }
+            else
+            {
+                comboBoxFiltre.SelectedIndex = 0;
+                comboBoxFiltre.SelectedIndex = degisken;
+            }
+
             dataGridView_Parcalar.Refresh();
         }
 
@@ -115,8 +125,17 @@ namespace KatmanliProje
             {
                 var kayit = dataGridView_Parcalar.Rows[e.RowIndex].Cells[2].Value;
                 _is.parcaSil(Int32.Parse(kayit.ToString()));
-                comboBoxFiltre.SelectedIndex = 0;
-                comboBoxFiltre.SelectedIndex = degisken;
+
+                if (comboBoxFiltre.SelectedIndex == 0)
+                {
+                    comboBoxFiltre.SelectedIndex = 1;
+                    comboBoxFiltre.SelectedIndex = degisken;
+                }
+                else
+                {
+                    comboBoxFiltre.SelectedIndex = 0;
+                    comboBoxFiltre.SelectedIndex = degisken;
+                }
             }
         }
 

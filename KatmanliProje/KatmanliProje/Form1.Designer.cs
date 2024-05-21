@@ -177,9 +177,9 @@
             label1.Font = new Font("Segoe Print", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 162);
             label1.Location = new Point(9, 39);
             label1.Name = "label1";
-            label1.Size = new Size(42, 23);
+            label1.Size = new Size(93, 23);
             label1.TabIndex = 1;
-            label1.Text = "Ad -";
+            label1.Text = "Parça İsmi -";
             // 
             // tabPage1
             // 
